@@ -9,6 +9,8 @@ Public desktop installers only. Application source code is maintained separately
 This test installer is **unsigned**. Windows will show an unknown publisher warning.
 It uses the Cosmo test account server and processes editing locally.
 
+Known issue: this build is missing a compiler required by graphics generation. A corrected test build is being prepared.
+
 [Release notes and SHA-256 checksum](https://github.com/HumanAiDev/cosmo-downloads/releases/tag/test-20261106-6153869)
 
 [Cosmo test website](https://test.humanai.dev)
