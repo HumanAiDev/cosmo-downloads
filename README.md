@@ -1,20 +1,15 @@
 # Cosmo test downloads
 
-Public desktop installers only. Application source code is maintained separately.
+[Download from the Cosmo test website](https://test.humanai.dev)
 
-## Windows x64 test build
+- [Mac Apple Silicon](https://github.com/HumanAiDev/cosmo-downloads/releases/download/test-20261107-3caaa96/Cosmo-1.0.0-arm64.dmg)
+- [Mac Intel](https://github.com/HumanAiDev/cosmo-downloads/releases/download/test-20261107-3caaa96/Cosmo-1.0.0-x64.dmg)
+- [Windows x64](https://github.com/HumanAiDev/cosmo-downloads/releases/download/test-20261107-3caaa96/Cosmo-1.0.0-windows-x64-Setup.exe)
 
-[Download Windows installer](https://github.com/HumanAiDev/cosmo-downloads/releases/download/test-20261106-6153869/Cosmo-1.0.0-windows-x64-Setup.exe)
+Mac installers are signed and notarized. The Windows test installer is unsigned; Windows will show an unknown publisher warning.
 
-This test installer is **unsigned**. Windows will show an unknown publisher warning.
-It uses the Cosmo test account server and processes editing locally.
+[Release notes and checksums](https://github.com/HumanAiDev/cosmo-downloads/releases/tag/test-20261107-3caaa96)
 
-Known issue: this build is missing a compiler required by graphics generation. A corrected test build is being prepared.
+All three builds passed isolated packaged-runtime checks, including the bundled graphics compiler and captioned video rendering. Full user acceptance remains part of testing. The app uses the test environment and processes editing locally.
 
-[Release notes and SHA-256 checksum](https://github.com/HumanAiDev/cosmo-downloads/releases/tag/test-20261106-6153869)
-
-[Cosmo test website](https://test.humanai.dev)
-
-## Mac
-
-Apple Silicon and Intel installers are pending Apple notarization. They are not available for download yet.
+This repository contains public installers only; source code is maintained separately.
